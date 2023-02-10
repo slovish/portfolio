@@ -5,44 +5,55 @@
 
 #navbar ul li a{
     font-size: 1rem;
-    padding: 0px 7px;
+    padding: 0px 20px;
     padding-bottom: 8px;
 }
 /* Home section */
 #home{
-    height: 347px; 
+    height: 606px; 
     padding: 3px 28px;
 }
 
 #home::before{
-    height: 480px; 
+    height: 739px; 
 }
 
 #home p{
     font-size: 13px;
 }
 
+#about{
+    align-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* skills-sec section */
+#skills-sec{
+    flex-direction: vertical;
+}
+
+
+
+#skills-sec img{
+    width: 66px;
+    padding: 6px;
+    height: auto;
+}
+
 /* Services section  */
-#services{
+#projects{
     flex-direction: column;
 }
 
-#services .box { 
+#projects .box { 
     padding: 14px;
     margin: 2px 0px; 
     margin-bottom: 20px;
 }
 
-/* Clients section */
-#clients{
-    flex-wrap: wrap;
-}
 
-#clients img{
-    width: 66px;
-    padding: 6px;
-    height: auto;
-}
 
 /* Contact us section */
 #contact-box form{
@@ -55,6 +66,17 @@
     font-size:26px;
 }
 .btn{
-    font-size: 13px;
+    font-size: 15px;
     padding: 4px 8px;
+}
+.image{
+    padding-top: 15px;
+    justify-content: center;
+}
+.data{
+    display: flex;
+}
+.info{
+    font-size: 15px;
+    padding: 20px;
 }

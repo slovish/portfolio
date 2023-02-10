@@ -20,8 +20,12 @@ html{
   align-items: center;
   position: sticky;
   top: 0px;
-  z-index: 10;
+  z-index: 100;
+  box-shadow: 0px 1px 30px rgba(0,255,255,0.5);
+              
+
 }
+
 
 #navbar::before{
   content: "";
@@ -32,7 +36,7 @@ html{
   height: 100%;
   width:100%;
   z-index: -1;
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 /* Navigation Bar: Logo and Image */
@@ -55,12 +59,14 @@ html{
 
 #navbar ul li{ 
   list-style: none;
+  
   font-size: 1.3rem;
 }
 
 #navbar ul li a{
   color: white;
   display: block;
+  
   padding: 3px 22px;
   border-radius: 20px;
   text-decoration: none;
@@ -73,84 +79,93 @@ html{
 
 /* Home Section */
 #home{
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   padding:3px 200px;
-  height: 665px;
-  justify-content: center;
-  align-items: center;
+  height: 664px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  box-shadow: 0px 5px 100px 5px rgba(0,255,255,0.5); 
+
+ 
 }
 
 #home::before{ 
   content: "";
   position: absolute;
-  background: url('../image/bg1.jpg') no-repeat center center/cover;
+  /* background-color: rgb(24, 56, 106); */
+  background: url('../image/4882066.jpg') no-repeat center center/cover;
   height: 750px;
   top:0px;
   left:0px;
   width: 100%;
   z-index: -1;
-  opacity:0.89;
+  opacity:1;
 }
+
 
 #home h1{
   color:white;
   text-align: center;
   font-family: 'Bree Serif', serif;
+  opacity: 1;
 }
 
 #home p{
   color:white;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-family: 'Bree Serif', serif;
+}
+
+.name{
+  width : 100%;
+}
+
+#home #about{
+  display: flex;
+  flex-direction: row;
 }
 
 /* Skills Section */
 #skills-sec{ 
   position: relative;
-  height: 500px;
+  height: 1040px;
+  box-shadow: rgba(0,255,255,0.35) 0px 25px 50px -12px;
+
 }
 
 #skills-sec::before{
 content: "";
 position: absolute;
-background: url('../image/pink.jpg');
+background-color: #000928;
 width: 100%;
-height:500px;
+height:1040px;
 z-index: -1;
-opacity: 0.89;
+/* opacity: 0.89; */
+}
+#skills-sec h1{
+  padding-top: 50px;
 }
 
-#skills_row1{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-#skills_row2{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 50px;
-  padding-right: 50px;
-}
 
 
 
 /* projects Section */
 #project{
   position: relative;
+  box-shadow: 0px 1px 100px rgba(0,255,255,0.5);
+  
 }
 #project::before{
   content: "";
   position: absolute;
-  background: url('../image/pink.jpg');
+  background-color: #000928;
+  /* background: url('../image/pink.jpg'); */
   width: 100%;
   height: 100%;
   z-index: -1;
-  opacity: 0.89;
+  /* opacity: 0.89; */
   }
 
 
@@ -159,12 +174,19 @@ opacity: 0.89;
   justify-content: center;
   align-items: center;
 }
+
+#projects h1{
+  padding-top: 200px;
+}
+
 #projects .card{ 
   padding: 20px;
   margin: 2px 20px;
   border-radius: 28px;
   background: transparent;
   margin-bottom: 20px;
+  box-shadow: rgba(0,255,255,0.5) 0px 50px 100px -20px, rgba(0,255,255,0.5) 0px 30px 60px -30px, rgba(0,255,255,0.5) 0px -2px 6px 0px inset;
+  box-shadow: rgba(0,255,255,0.5) 0px 10px 20px, rgba(0,255,255,0.5) 0px 6px 6px;
 }
 
 #projects .card img{ 
@@ -186,18 +208,22 @@ opacity: 0.89;
 }
 
 
+
 /* Contact Section */
 #contact{
   position: relative;
+  box-shadow: 0px 5px 100px 5px rgba(0,255,255,0.5); 
+
 }
 #contact::before{
   content: "";
   position: absolute;
+  background-color: #000928;
   width: 100%;
   height: 100%;
   z-index: -1;
-  opacity: 0.8;
-  background: url('../image/bg.jpg') no-repeat center center/cover;
+  /* opacity: 0.8; */
+  /* background: url('../image/bg.jpg') no-repeat center center/cover; */
 
 }
 #contact-box{
@@ -239,10 +265,12 @@ footer{
 
 /* Utility Classes */
 .h-primary{
+  min-width: 200px;
   font-family: 'Bree Serif', serif;
-  font-size: 3.8rem;
-  padding: 12px;
+  font-size: 2rem;
+  padding: 1px;
 }
+
 
 .h-secondary{
   font-family: 'Bree Serif', serif;
@@ -263,4 +291,24 @@ footer{
 
 .center{
   text-align: center;
+}
+
+.sk{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.image{
+  padding-top: 50px;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+}
+
+.info{
+  margin: 0px;
+  padding-top: 60px;
+  padding-left: 30px;
+  font-size: 15px;
+  
 }
