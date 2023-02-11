@@ -14,16 +14,16 @@
 }
 /* Home section */
 #home{
-    height: 970px; 
+    height: 790px; 
     padding: 3px 28px;
 }
 
 #home::before{
-    height: 1055px; 
+    height: 875px; 
 }
 
 #home p{
-    font-size: 13px;
+    font-size: 15px;
 }
 #home h1{
     font-size: 35px;
@@ -37,14 +37,13 @@
 #links{
     flex-wrap: wrap;
 }
-
 #links2{
     flex-wrap: wrap;
 }
 
 /* skills-sec section */
 #skills-sec{
-    flex-direction: vertical;
+    flex-wrap: wrap;
 }
 
 
@@ -57,7 +56,7 @@
 
 /* Services section  */
 #projects{
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 #projects .box { 
