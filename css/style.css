@@ -45,7 +45,7 @@ html{
 }
 
 #logo img{
-  height: 59px;
+  height: 40px;
   margin: 3px 6px;
 }
 
@@ -53,6 +53,7 @@ html{
 /* Navigation Bar: List Styling */
 
 #navbar ul{
+  padding-top: 11px;
   display: flex;
   font-family: 'Baloo Bhai', cursive;
 }
@@ -82,7 +83,7 @@ html{
   display: flex;
   flex-direction: column;
   padding:3px 200px;
-  height: 664px;
+  height: 730px;
   box-shadow: 0px 1px 50px rgba(0,255,255,0.5);
 
 }
@@ -90,10 +91,8 @@ html{
 #home::before{ 
   content: "";
   position: absolute;
-  /* background-color: rgb(24, 56, 106); */
-  /* background: url('../image/4882066.jpg') no-repeat center center/cover; */
   background-color: #000928;
-  height: 750px;
+  height: 815px;
   top:0px;
   left:0px;
   width: 100%;
@@ -103,14 +102,14 @@ html{
 
 
 #home h1{
-  color:white;
+  color:rgb(223, 255, 255);
   text-align: center;
   font-family: 'Bree Serif', serif;
   opacity: 1;
 }
 
 #home p{
-  color:white;
+  color:rgb(223, 255, 255);
   text-align: center;
   font-size: 1.2rem;
   font-family: 'Bree Serif', serif;
@@ -122,6 +121,10 @@ html{
 }
 
 #count-div #count{
+  color:rgba(144, 203, 214, 0.734);
+  font-weight: 200;
+  text-shadow: 0px 1px 50px rgb(0, 247, 255);
+  font-family:Arial, Helvetica, sans-serif;
   margin: -20px;
   font-size: 100px;
 }
@@ -315,7 +318,7 @@ footer{
 }
 
 .image{
-  padding-top: 50px;
+  padding-top: 30px;
   align-items: center;
   justify-content: center;
   margin: 0px;
@@ -323,7 +326,7 @@ footer{
 
 .info{
   margin: 0px;
-  padding-top: 60px;
+  padding-top: 40px;
   padding-left: 30px;
   font-size: 15px;
   
@@ -382,6 +385,26 @@ footer{
   align-items: center;
 }
 .t3{
-  color: aliceblue;
+  color: rgb(211, 234, 255);
   
+}
+
+.resume{
+  padding-left: 50px;
+  
+}
+.resume a{
+  text-decoration: none;
+  
+}
+.sub{
+  display:flex;
+  justify-content: center;
+}
+
+.mailwa{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

@@ -14,12 +14,12 @@
 }
 /* Home section */
 #home{
-    height: 790px; 
+    height: 830px; 
     padding: 3px 28px;
 }
 
 #home::before{
-    height: 875px; 
+    height: 915px; 
 }
 
 #home p{
@@ -89,6 +89,11 @@
     display: flex;
 }
 .info{
-    font-size: 15px;
-    padding: 20px;
+    font-size: 17px;
+    padding-top: 20px;
+    padding-inline: 20px;
+}
+.resume{
+    padding-left: 0px;
+    align-self: center;
 }

@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/card.css">
     <link rel="stylesheet" href="css/bar.css">
-
-    
-    <link rel="stylesheet" media="screen and (max-width: 700px)" href="css/phone.css">
+    <link rel="stylesheet" href="css/hover.css">
+    <link rel="stylesheet" media="screen and (max-width: 480px)" href="css/phonemini.css">
+    <link rel="stylesheet" media="screen and (max-width: 700px) and (min-width:480px)" href="css/phone.css">
     <link rel="stylesheet" media="screen and (max-width: 1200px) and (min-width:700px)" href="css/mid.css">
     <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -21,13 +21,13 @@
 <body>
     <nav id="navbar">
         <div id="logo">
-            <img src="image/my_image.png" alt="my_logo">
+            <img src="icons/icons8-v-symbol-50.png" alt="my_logo">
         </div>
         <ul>
-            <li class="item"><a href="#home">HOME</a></li>
-            <li class="item"><a href="#skills-sec">SKILLS</a></li>
-            <li class="item"><a href="#projects">PROJECTS</a></li>
-            <li class="item"><a href="#contact">CONTACT</a></li>
+            <li class="item hvr-grow"><a href="#home">HOME</a></li>
+            <li class="item hvr-grow"><a href="#skills-sec">SKILLS</a></li>
+            <li class="item hvr-grow"><a href="#projects">PROJECTS</a></li>
+            <li class="item hvr-grow"><a href="#contact">CONTACT</a></li>
         </ul>
     </nav>
 
@@ -43,42 +43,63 @@
       </div>
       
       <div class="info">
-        <p class="para">I am currently pursuing a degree in Computer Science, and am also a web and app developer and coder. 
+        <p class="para">I am currently pursuing a Bachelor's degree in Electronics and Telecommunication, despite of that i am a web and app developer and coder. 
                 I have a passion for technology and coding, and enjoy creating new and innovative solutions for the digital world. 
-                I have a deep understanding of programming languages such as HTML, CSS, JavaScript, and Python, and I am able to quickly pick up new languages and frameworks. 
-                I have experience in developing web applications, mobile applications, and desktop applications, and also have a strong understanding of databases, web servers, 
+                I have a deep understanding of programming languages such as Java, Python, HTML, CSS and JavaScript and I am able to quickly pick up new languages and frameworks. 
+                I have experience in developing web applications, and desktop applications, and also have a strong understanding of databases, web servers, 
                 and other back-end technologies. I am always striving to push the boundaries of what is possible, and I take great pride in my ability 
                 to create effective, efficient, and beautiful software solutions.</p>
       </div>
       </div>
+      <div class="resume">
+        <div class="hvr-grow">
+        <a href="resume/resume_1_12_23.pdf">
+        <button class="link_but submit_but ">
+          <h4 class="t3">Resume</h4>
+        </button>
+        </a>
+        </div>
+        </div> 
       <div id="count_data">
         <div id = "count-div"><p id ="count">150+</p></div>
         <div id ="text-div"> <p id ="text">problem solved across all platforms</p></div>
       </div>
       <div id ="links2">
-        <div id = "link1" class="link_but">
+        <div class="hvr-grow">
+        <div class="link_but">
           <a href="https://github.com/slovish" ><img src="icons/icons8-github-25.png" alt="github"></a>
           <h6 class="t1"> Github </h6>
         </div>
-        <div id = "link2" class="link_but">
-          <a href="https://www.linkedin.com/in/vishal-jha-822b2a217/" ><img src="icons/icons8-linkedin-2-25.png" alt="linkedin"></a>
-          <h6 class="t1">Linkidin</h6>
         </div>
-        <div id = "link3" class="link_but">
+        <div class="hvr-grow">
+        <div class="link_but">
+          <a href="https://www.linkedin.com/in/vishal-jha-822b2a217/" ><img src="icons/icons8-linkedin-2-25.png" alt="linkedin"></a>
+          <h6 class="t1">Linkedin</h6>
+        </div>
+        </div>
+        <div class="hvr-grow">
+        <div class="link_but">
           <a href="https://leetcode.com/vishalkrishnajha2001/" ><img src="icons/leetcode.png" alt="leetcode"></a>
           <h6 class="t1">LeetCode</h6>
         </div>
-        <div id = "link4" class="link_but">
+        </div>
+        <div class="hvr-grow">
+        <div class="link_but">
           <a href="https://www.codechef.com/users/spt2020200027" ><img src="icons/icons8-codechef-30.png" alt="codechef"></a>
           <h6 class="t1">CodeChef</h6>
         </div>
-        <div id = "link5" class="link_but">
+        </div>
+        <div class="hvr-grow">
+        <div class="link_but">
           <a href="https://replit.com/@VishalJha10" ><img src="icons/icons8-replit-48.png" alt="replit"></a>
           <h6 class="t1">Replit</h6>
         </div>
-        <div id = "link6" class="link_but">
+        </div>
+        <div class="hvr-grow">
+        <div class="link_but">
           <a href="https://www.instagram.com/vishal_jha_99/" ><img src="icons/icons8-instagram-25.png" alt="instagram"></a>
           <h6 class="t1">Instagram</h6>
+        </div>
         </div>
       </div>
     </section>
@@ -91,20 +112,20 @@
             <div class="chart chart--lang">
               <span class="chart__title">Languages</span>
               <ul class="chart--horiz">
-                <li class="chart__bar" style="width: 60%;">
+                <li class="chart__bar" style="width: 50%;">
                   <div class="new">
                     <span class="chart__label">
                     C
                   </span>
-                  <h7 class="per">60%</h7>
+                  <h7 class="per">50%</h7>
                   </div>
                 </li>
-                <li class="chart__bar" style="width: 65%;">
+                <li class="chart__bar" style="width: 55%;">
                   <div class="new">
                     <span class="chart__label">
                     C++
                   </span>
-                  <h7 class="per">65%</h7>
+                  <h7 class="per">55%</h7>
                   </div>
                 </li>
                 <li class="chart__bar" style="width: 70%;">
@@ -156,7 +177,7 @@
                 <li class="chart__bar" style="width: 30%;">
                   <div class="new">
                     <span class="chart__label">
-                      JavaScript
+                      JS
                   </span>
                   <h7 class="per">30%</h7>
                   </div>
@@ -164,7 +185,7 @@
                 <li class="chart__bar" style="width: 70%;">
                   <div class="new">
                     <span class="chart__label">
-                      JAVAFX | Swing | AWT
+                      JAVAFX/Swing
                   </span>
                   <h7 class="per">70%</h7>
                   </div>
@@ -172,7 +193,7 @@
                 <li class="chart__bar" style="width: 40%;">
                   <div class="new">
                     <span class="chart__label">
-                      Tkinter (UI/UX)
+                      Tkinter
                   </span>
                   <h7 class="per">40%</h7>
                   </div>
@@ -250,9 +271,11 @@
             <p class="card-text">It was group project of 3 members. We have developed a system 
               that opens door automatically when there is someone in front of it.</p>
               <div id="links">
+                <div class="hvr-shrink">
                 <div class="link_but link_proj">
                   <a href="https://www.youtube.com/channel/UCzlRWFR6ZrfcqL2JCFMxupA" ><i class="bi bi-youtube"></i></a>
-                </div>                 
+                </div>   
+                </div>              
               </div>
         </div>
         </div>
@@ -263,12 +286,16 @@
             <p class="card-text">This is PYTHON based project. In this system we use our voice to 
               command our device to perform many operations.</p>
               <div id="links">
+                <div class="hvr-shrink">
                 <div class="link_but link_proj">
                   <a href="https://github.com/slovish" ><i class="bi bi-github"></i></a>
                 </div> 
-                <div class="link_but link_proj">
-                  <a href="https://www.youtube.com/channel/UCzlRWFR6ZrfcqL2JCFMxupA" ><i class="bi bi-youtube"></i></a>
-                </div>                 
+                </div>
+                <div class="hvr-shrink">
+                  <div class="link_but link_proj">
+                    <a href="https://www.youtube.com/channel/UCzlRWFR6ZrfcqL2JCFMxupA" ><i class="bi bi-youtube"></i></a>
+                  </div>   
+                  </div>                 
               </div>
             </div>
         </div>
@@ -280,12 +307,16 @@
               directories. It had features like play/ pause, volume up/ down, next 
               song, previous song, etc.</p>
               <div id="links">
+                <div class="hvr-shrink">
                 <div class="link_but link_proj">
                   <a href="https://github.com/slovish/Music-Player" ><i class="bi bi-github"></i></a>
                 </div> 
-                <div class="link_but link_proj">
-                  <a href="https://www.youtube.com/channel/UCzlRWFR6ZrfcqL2JCFMxupA" ><i class="bi bi-youtube"></i></a>
-                </div>                 
+                </div>
+                <div class="hvr-shrink">
+                  <div class="link_but link_proj">
+                    <a href="https://www.youtube.com/channel/UCzlRWFR6ZrfcqL2JCFMxupA" ><i class="bi bi-youtube"></i></a>
+                  </div>   
+                  </div>                 
               </div>
           </div>
         </div>
@@ -316,18 +347,30 @@
             </form>
             
         </div>
-        <div id="links3">
-          <div class="link_but ">
-            <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMVJNNzGgSvwlrnNGwkzfBDnFwQGsqJPQZlKshfZPPBlJQKSVRRkCFSfBhSllvKzWZmMFdF" ><i class="bi bi-envelope-at"></i></a>
-          </div> 
-          <div>
+        <div class="sub">
+          <div class="hvr-grow">
           <button href="#" class="link_but submit_but ">
             <h4 class="t3">Submit</h4>
           </button>
+          </div>
+        </div> 
+        <div id="links3">
+          <div class="mailwa">
+          <div class="hvr-grow">
+          <div class="link_but">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vishal.jha@spit.ac.in&su=Subject...&body=write.....&bcc=vishalkrishnajha20012@gmail.com" ><i class="bi bi-envelope-at"></i></a>
           </div> 
+          </div>
+          <h7 class="t3">vishal.jha@spit.ac.in</h7>
+          </div>
+          <div class="mailwa">
+          <div class="hvr-grow">
           <div class="link_but ">
-            <a href="https://web.whatsapp.com/" ><i class="bi bi-whatsapp"></i></a>
-          </div>                 
+            <a href="https://wa.me/919373637943" ><i class="bi bi-whatsapp"></i></a>
+          </div> 
+          </div>
+          <h7 class="t3">+91 9373637943</h7>
+          </div>                
         </div>
     </section>
 
